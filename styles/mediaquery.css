@@ -1,7 +1,220 @@
 
 /* Media Queries - Desktop First */
 
-@media screen and (max-width: 576px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    header {
+        padding: 3rem 9rem;
+    }
+    .header-title {
+        font-size: 1.7rem;
+    }
+    .header-link {
+        font-size: 1.3rem;
+    }    
+    .section1 {
+        padding: 5rem 0 5rem 0;
+        text-align: justify;
+        justify-content: space-evenly;
+    }
+    .sec1-container {
+        display: block;
+    }
+    .sec1-h1 {
+        font-size: 2.3rem;
+    }
+    .sec1-p {
+        font-size: 1.5rem;
+        max-width: 35rem;
+    }   
+    .sec1-img {
+        width: 25rem;
+        height: 13rem;
+    }
+    .sec1-button {
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+    .sec2-h2 {
+        font-size: 2.4rem;
+    }    
+    .sec2-p {
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+    .sec2-img {
+        width: 14vw;
+        height: 18vh;
+    }
+    blockquote {
+        padding: 5rem 14rem;
+        font-size: 2rem;
+    }
+    .sec3-footer {
+        font-size: 1.2rem;
+    }
+    .sec4-container {
+        height: 15vh;
+        width: 80vw;
+    }
+    .sec4-h3 {
+        font-size: 1.7rem;
+    }
+    .sec4-p{
+        font-size: 1.5rem;
+        padding-top: 0.6rem;
+    }
+    .sec4-button {
+        font-size: 1.2rem;
+        padding: 0.5rem 2rem;
+        margin-left: 0.9rem;
+    }
+    .sec4-p {
+        font-size: 1.3rem;
+    }
+    .footer-end {
+        font-size: 1.2rem;
+    }
+}    
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding: 2rem 5rem;
+    }
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .header-link {
+        font-size: 1.2rem;
+    }
+    .section1 {
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0 2rem 0;
+        text-align: justify;
+        justify-content: space-evenly;
+    }
+    .sec1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec1-h1 {
+        font-size: 2.5rem;
+    }
+    .sec1-p {
+        padding: 1rem 0;
+        margin: 0 auto;
+        font-size: 1.4rem;
+    }
+    .sec1-button {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .sec1-img {
+        width: 25rem;
+        height: 15.647rem;
+    }
+    .sec2-p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 9rem;
+    }
+    .section2 {
+        width: 100vw;
+    }
+    .sec2-img {
+        width: 11rem;
+        height: 11rem;
+    }
+    .sec2-container {
+        gap: 3rem;
+    }
+    blockquote {
+        padding: 3rem 8rem;
+        font-size: 1.9rem;
+    }
+    .sec3-footer {
+        font-size: 1.5rem;
+    }
+    .sec4-container {
+        height: 9vh;
+        width: 85vw;
+    }
+    .sec4-h3 {
+        font-size: 1.6rem;
+    }
+    .sec4-p{
+        font-size: 1.4rem;
+        padding-top: 0.6rem;
+    }
+    .sec4-button {
+        font-size: 1.3rem;
+        padding: 0.5rem 2rem;
+        margin-left: 0.9rem;
+    }
+    .footer-end {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    header {
+        padding: 2rem 3rem;
+    }
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .header-link {
+        font-size: 1.2rem;
+    }
+    .section1 {
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem 0 2rem;
+        text-align: center;
+    }
+    .sec1-h1 {
+        font-size: 2.5rem;
+    }
+    .sec1-p {
+        padding: 1rem 0;
+        margin: 0 auto;
+    }
+    .sec1-button {
+        margin-bottom: 2rem;
+    }
+    .sec1-img {
+        display: none;
+    }
+    .sec2-p {
+        margin-top: 1rem;
+        font-size: .9rem;
+        width: 9rem;
+    }
+    .section2 {
+        width: 100vw;
+    }
+    .sec2-img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .sec2-container {
+        gap: 2rem;
+    }
+    blockquote {
+        padding: 2rem 5rem;
+        font-size: 1.5rem;
+    }
+    .sec4-container {
+        height: 15vh;
+        width: 85vw;
+        padding: 0 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
     header {
         padding: 1rem 1rem;
     }
@@ -19,7 +232,7 @@
         text-align: center;
     }
     .sec1-h1 {
-        font-size:1.5rem;
+        font-size:1.7rem;
         padding: 0.5rem 0;
     }
     .sec1-p {
@@ -95,18 +308,4 @@
         margin: 0 auto;
         padding: 0.8rem 1.3rem;
     }
-}
-
-    
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 992px) {
-    
-}
-
-@media screen and (max-width: 1200px) {
-    
 }
